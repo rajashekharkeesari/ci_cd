@@ -1,5 +1,4 @@
-# tests/test_features.py
-from src.features import add, sub  # Import from the specific module
+from src.features import add, sub
 
 def test_add():
     assert add(2, 3) == 5
